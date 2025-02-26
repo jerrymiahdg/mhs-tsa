@@ -1,4 +1,4 @@
-import { FlaskConical, GraduationCap, Trophy } from "lucide-react";
+import { ArrowRight, FlaskConical, GraduationCap, Trophy } from "lucide-react";
 
 const Home = () => {
   return (
@@ -15,8 +15,8 @@ const Home = () => {
         <p className="text-5xl font-thin">
           4 Awards at 2025 Bay TSA Conference
         </p>
-        <a>
-          <button className="bg-blue-300 text-blue-800 py-5 px-20 rounded-full text-3xl">
+        <a href="https://lego.com" target="_blank">
+          <button className="cursor-pointer bg-blue-300 text-blue-800 py-5 px-20 rounded-full text-3xl">
             Join
           </button>
         </a>
@@ -36,10 +36,12 @@ const Home = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
-            <img
-              src="placeholder.png"
-              className="w-[50%] h-100 object-cover rounded-3xl"
-            />
+            <div className="pl-5 w-[50%]">
+              <img
+                src="placeholder.png"
+                className=" h-100 object-cover rounded-3xl"
+              />
+            </div>
           </div>
           <div className="py-20 flex flex-col gap-10">
             <p className="text-6xl font-bold">Why should I join TSA?</p>
@@ -63,6 +65,14 @@ const Home = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className=" flex items-center gap-20 justify-center h-[75vh] font-josefin-sans">
+            <div className="text-7xl">Join Today</div> <ArrowRight size={75} />
+            <a href="https://lego.com" target="_blank">
+              <button className="cursor-pointer bg-blue-300 text-blue-800 py-5 px-20 rounded-full text-3xl">
+                Join
+              </button>
+            </a>
           </div>
         </div>
       </div>

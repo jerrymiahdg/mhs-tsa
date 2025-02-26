@@ -20,7 +20,9 @@ const Nav = () => {
           <Link className="text-lg" to="resources">
             Resources / Contact
           </Link>
-          <a className="text-lg">Join</a>
+          <a className="text-lg" href="https://lego.com" target="_blank">
+            Join
+          </a>
         </div>
       </div>
     </div>

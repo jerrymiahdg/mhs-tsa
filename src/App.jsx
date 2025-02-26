@@ -5,6 +5,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="about-us" element={<AboutUs />} />
             <Route
               path="/*"
               element={
