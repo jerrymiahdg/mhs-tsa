@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
+import Resources from "./components/Resources";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about-us" element={<AboutUs />} />
+            <Route path="resources" element={<Resources />} />
             <Route
               path="/*"
               element={
